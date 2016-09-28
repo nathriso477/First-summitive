@@ -10,6 +10,8 @@ using System.Windows.Forms;
 
 
 // Created by Nathan
+// Date: Sept 2016
+// Purpose: to use graphics objects and timing effects
 
 namespace First_summitive
 {
