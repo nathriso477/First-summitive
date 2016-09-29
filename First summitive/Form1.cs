@@ -63,7 +63,7 @@ namespace First_summitive
             
 
             fg.FillEllipse(drawBrush3, 100, 25, 5, 5);
-            fg.FillEllipse(drawBrush3, 100, 50, 10, 10);
+            //fg.FillEllipse(drawBrush3, 100, 50, 10, 10);
 
         }
 
