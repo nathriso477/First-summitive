@@ -59,5 +59,15 @@ namespace First_summitive.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap xmass_tree {
+            get {
+                object obj = ResourceManager.GetObject("xmass-tree", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
