@@ -54,16 +54,25 @@ namespace First_summitive
 
             SolidBrush drawBrush3 = new SolidBrush(Color.White);
             fg.Clear(Color.Black);
-            Pen drawPen = new Pen(Color.White, 10);
-            fg.FillEllipse(drawBrush3, 25, 25, 5, 5);
-            fg.FillEllipse(drawBrush3, 37, 46, 10,10 );
-            fg.FillEllipse(drawBrush3, 70, 75, 5, 5);
-            fg.FillEllipse(drawBrush3, 65, 65, 10, 10);
+            Pen drawPen = new Pen(Color.White, 1);
 
-            
+            SolidBrush drawbrush4 = new SolidBrush(Color.Blue);
 
-            fg.FillEllipse(drawBrush3, 100, 25, 5, 5);
-            //fg.FillEllipse(drawBrush3, 100, 50, 10, 10);
+            Thread.Sleep(1000);
+            //draw dots
+            fg.FillEllipse(drawbrush4, 250, 50, 25, 25);
+            fg.FillEllipse(drawbrush4, 354, 175, 25,25 );
+            fg.FillEllipse(drawbrush4, 450, 50, 25, 25);
+            fg.FillEllipse(drawbrush4, 150, 175 , 25, 25);
+            fg.FillEllipse(drawbrush4,550 , 175, 25, 25);
+            fg.FillEllipse(drawbrush4, 250, 300,25, 25);
+            fg.FillEllipse(drawbrush4, 450, 300, 25, 25);
+            Thread.Sleep(1000);
+
+            //draw lines
+           fg.DrawLine(drawPen, 250, 60, 470, 60);
+           Thread.Sleep(1000);
+           fg.DrawLine(drawPen, 254,  )
 
         }
 
