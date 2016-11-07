@@ -78,7 +78,11 @@ namespace First_summitive
             Thread.Sleep(1000);
             fg.DrawLine(drawPen,265, 307, 160, 180);
             Thread.Sleep(1000);
-            fg.DrawLine(drawPen, 160, 180, 390, 190);
+            fg.DrawLine(drawPen, 160, 180, 360, 190);
+            Thread.Sleep(1000);
+            fg.DrawLine(drawPen, 250, 60, 360, 190);
+            Thread.Sleep(1000);
+            fg.DrawLine(drawPen, 360,190, );
         }
 
 
