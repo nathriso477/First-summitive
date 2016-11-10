@@ -63,6 +63,15 @@ namespace First_summitive.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream merryxmas {
+            get {
+                return ResourceManager.GetStream("merryxmas", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream sparkle {
             get {
                 return ResourceManager.GetStream("sparkle", resourceCulture);

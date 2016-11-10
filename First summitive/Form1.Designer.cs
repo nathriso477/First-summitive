@@ -46,7 +46,6 @@
             this.ouputLable1.TabIndex = 0;
             this.ouputLable1.Text = "HAPPY ";
             this.ouputLable1.Visible = false;
-            this.ouputLable1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // ouputlabel2
             // 
@@ -76,7 +75,7 @@
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(12, 325);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(668, 86);
@@ -95,9 +94,9 @@
             this.Controls.Add(this.outputlabel3);
             this.Controls.Add(this.ouputlabel2);
             this.Controls.Add(this.ouputLable1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Christmas Card";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.Click += new System.EventHandler(this.Form1_Click);
             this.ResumeLayout(false);
 
