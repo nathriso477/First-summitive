@@ -26,26 +26,23 @@ namespace First_summitive
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            //this.Size = new Size(720, 480);
-            //BackgroundImageLayout = ImageLayout.Tile;
         }
 
         private void Form1_Click(object sender, EventArgs e)
         {
-
+            //play a sound
+            SoundPlayer player = new SoundPlayer(Properties.Resources.sparkle);
+            player.Play();
+ 
             Graphics fg = this.CreateGraphics();
 
             Font drawFont = new Font("Arial", 24, FontStyle.Bold);
             SolidBrush drawBrush = new SolidBrush(Color.Red);
-
+            // draws words
             fg.DrawString("Merry", drawFont, drawBrush, 150, 40);
             Thread.Sleep(1000);
-
-            Refresh();
-
             Font newfont = new Font("Arial", 24, FontStyle.Bold);
             SolidBrush drawBrush2 = new SolidBrush(Color.Green);
-
             fg.DrawString("Christmas", drawFont, drawBrush2, 250, 40);
 
             Thread.Sleep(1000);
@@ -91,8 +88,30 @@ namespace First_summitive
             fg.DrawLine(drawPen, 360, 190, 470, 315);
             Thread.Sleep(1000);
             fg.DrawLine(drawPen, 470, 315, 265,307);
+            Thread.Sleep(1000);
+            fg.DrawLine(drawPen, 566,185, 470,315);
+            Thread.Sleep(1500);
+
+            //displays different text
+            label3.Visible = true;
+            fg.Clear(Color.Black);
+            Thread.Sleep(3000);
+            ouputLable1.Visible = true;
+            Thread.Sleep(1000);
+            ouputlabel2.Visible = true;
+            Thread.Sleep(1000);
+            outputlabel3.Visible = true;
+
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

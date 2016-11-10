@@ -117,4 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Snowflakes and snow crystals are basically the same, a crystal is one tiny bit of ice, snowflakes are many snow crystals stuck together. Snowflakes are not frozen raindrops. Frozen raindrops are known as sleet. Snow crystals are formed when water vapour freezes, which all happens up in the clouds.</value>
+  </data>
 </root>
